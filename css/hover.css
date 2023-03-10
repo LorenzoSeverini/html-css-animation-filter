@@ -30,6 +30,8 @@
     border-radius: 50%;
 }
 
+/* 4 */
+
 .ex-4-square {
     transition: 5s;
 }
@@ -37,3 +39,17 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+/* 5 */
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(1.5);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+  }
