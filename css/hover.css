@@ -29,3 +29,11 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
+
+.ex-4-square {
+    transition: 5s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
